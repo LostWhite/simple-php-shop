@@ -1,0 +1,17 @@
+<style type="text/css">
+	 .table-striped tbody tr:nth-child(odd) td {
+	   background-color:#ecf5ff;
+	 }
+	 .table-striped td{
+	 background-color:#ecf5ff;
+	 width:100px;
+	 text-align:center;
+	 }
+	 .table-striped tbody tr:nth-child(odd) th {
+	   background-color:#acd6ff;
+	   width:100px;
+	   text-align:center;
+	   
+	 }
+	 
+</style>

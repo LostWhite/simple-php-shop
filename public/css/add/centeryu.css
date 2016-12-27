@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/*
+ * 我的评论
+ */
+.centeryu_con{
+	width : 100%; 
+	font-size:15px; 
+	color:#7c7c7c;
+	position: relative;
+	top:20px;
+}
+
+.centeryu_con td{
+	background-color:#eee; 
+	padding:5px; 
+	text-align:left;
+}
+
+/*
+ * 我收藏的预测师
+ */
+
+#top_detail_inner p{
+	font-size:15px;
+	font-weight:bold;
+}
+
+#main_image{
+	height:100%;
+}
+
+.yuce_img{
+	position: relative;
+	left: 15px;
+	top:20px;
+	float:left;
+	width:20%;
+}
+
+#yuce_mes{
+	position: relative;
+	top:20px;
+}
+
+#yuce_mes label{
+	color:red;
+}
+
+#pro_0{
+	display:block; 
+	float:left;
+	width:100px;
+}
+
+#pro_1{
+	display:block; 
+	float:left;
+	width:150px;
+}
+
+#pro_2{
+	display:block;
+	white-space:normal;
+	width:90%;
+}
+
+/*
+ * 预测记录
+ */
+
+#top_detail_inner table{
+	position: relative;
+	top : 20px;
+}
+
+#top_detail_inner table td{
+	width : 200px;
+	background-color:#eee; 
+	padding:5px; 
+	text-align:left;
+}

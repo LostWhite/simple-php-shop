@@ -1,0 +1,23 @@
+@charset "UTF-8";
+span.online {
+display: inline-block;
+height: 16px;
+line-height: 16px;
+width: 33px;
+background: url(http://localhost/bbs_new/public/css/images/online.jpg) no-repeat;
+}
+span.offline {
+display: inline-block;
+height: 16px;
+line-height: 16px;
+width: 33px;
+background: url(http://localhost/bbs_new/css/images/online.jpg) no-repeat;
+}
+
+span.online {
+display: inline-block;
+height: 16px;
+line-height: 16px;
+width: 33px;
+background: url(http://localhost/bbs_new/css/images/online.jpg) no-repeat;
+}

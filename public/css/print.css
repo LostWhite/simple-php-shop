@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* *html body			for ie6 */
+/* *:first-child+html	for ie7 */
+/* html[xmlns*=""] body:last-child Safari用ハック */
+
+@import url(main.css);
+
+@media print {
+body {
+zoom: 65%;
+}
+}

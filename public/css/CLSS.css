@@ -1,0 +1,21 @@
+.tbldsp {
+   width: 100%;
+	
+}
+.tbldsp th{
+ height: 35px;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #D2E9FF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #959595;
+	
+}
+.tbldsp td{
+   height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+	
+}

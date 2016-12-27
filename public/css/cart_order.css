@@ -1,0 +1,409 @@
+@charset "UTF-8";
+
+/* *html body			for ie6 */
+/* *:first-child+html	for ie7 */
+
+/* 買い物カゴ */
+#cart h1 {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 8px;
+	margin: 20px 0 10px;
+}
+
+#cart ul {
+	list-style:none;
+	margin:15px 0 16px 13px;
+}
+#cart ul li {
+	padding:0 0 0 10px;
+	background:url(../imgr/……/icon_cart_list.gif) no-repeat 0 center;
+}
+#cart ul li:nth-child(1) {
+	margin:0 0 10px 0;
+	padding:0;
+	background:none;
+}
+
+#cart h2 {
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin: 20px 0 0;
+}
+
+#cart #cart_detail {
+	margin:0 0 20px 0;
+	padding:20px;
+	background:#fff;
+	border:1px solid #e5e5e5;
+	border-top: 0;
+}
+#cart_detail table {
+	font-size:14px;
+	width:100%;
+}
+#cart_detail table thead th {
+	text-align:left;
+	color:#cc1b1b;
+	padding:7px;
+	background:#faecec;
+}
+#cart_detail table tbody th {
+	text-align:left;
+	width:100px;
+	padding:7px;
+	background:#eee;
+}
+#cart_detail table tbody td {
+	padding:7px;
+	background:#fff;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart_detail table tbody td.goods p.price {
+	font-size:16px;
+}
+#cart_detail table tbody td.goods img {
+	margin:0 10px 0 0;
+	float:left;
+}
+#cart_detail table tbody td.price {
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+	color:#b00000;
+}
+#cart_detail table tbody td:nth-child(4) {
+	border-right:1px solid #ddd;
+}
+#cart_detail table td.delete,
+#cart_detail table td.bikou {
+	text-align:center;
+}
+#cart_detail p.price {
+	font-weight:bold;
+	color:#b00000;
+}
+#cart_detail table tbody td.num {
+	text-align:center;
+	width:70px;
+}
+#cart_detail table tfoot td {
+	padding:5px 7px;
+}
+#cart_detail table tfoot td.price {
+	width:70px;
+	text-align:right;
+	background:#f9f0f0;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart_detail table tfoot td.price2 {
+	width:70px;
+	text-align:right;
+	font-weight:bold;
+	color:#b00000;
+	background:#f9f0f0;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart_detail table tfoot td.txt {
+	background:#f6f6f6;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart_detail table tfoot td.txt2 {
+	font-weight:bold;
+	background:#f6f6f6;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+#cart_detail dl {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#cart_detail dl dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_back_to_shopping_on.gif) no-repeat;
+	float:left;
+}
+#cart_detail dl dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_back_to_shopping.gif) no-repeat;
+}
+#cart_detail dl dt a:hover {
+	background:none;
+}
+
+#cart_detail dl dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#cart_detail dl dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_purchase.gif) no-repeat;
+	border:none;
+}
+#cart_detail dl dd input:hover {
+	background:url(../images/btns/btn_go_to_purchase_on.gif) no-repeat;
+}
+
+
+/* おすすめの書籍 */
+#cart_recommend h3 {
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+	color:#000;
+	height:30px;
+	margin:40px 0 10px 0;
+	padding:0 0 0 10px;
+	background:#f6f6f6;
+	border-left:3px solid #ff8e00;
+}
+#cart_recommend ul {
+	list-style:none;
+}
+#cart_recommend ul li {
+	width:146px;
+	height:190px;
+	padding:20px;
+	float:left;
+}
+#cart_recommend ul li .book_img {
+	text-align:center;
+	margin:0 0 5px 0;
+}
+#cart_recommend ul li h2 {
+	font-size:12px;
+	line-height:16px;
+}
+#cart_recommend ul li a {
+	display:block;
+	width:146px;
+	height:190px;
+	margin:-20px;
+	padding:20px;
+	color:#0058af;
+	background:#fff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+#cart_recommend ul li a:hover {
+	text-decoration:none;
+	color:#006eda;
+	background:#f6f6f6;
+}
+#cart_recommend ul li em {
+	font-weight:bold;
+	color:#c20000;
+}
+
+
+/* お支払い方法・配送方法 */
+#cart .cart_table,
+#cart .card_table {
+	margin:0 0 20px 0;
+	padding:20px;
+}
+
+#cart .cart_table table,
+#cart .card_table table {
+	font-size:12px;
+	width:100%;
+	border-right:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+#cart .cart_table table thead th {
+	text-align:left;
+	color:#000;
+	padding:7px;
+	background:#eee;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart .cart_table table tbody th {
+	text-align:left;
+	font-weight:bold;
+	color:#000;
+	padding:7px;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart .card_table table tbody th {
+	text-align:left;
+	font-weight:bold;
+	color:#000;
+	width:100px;
+	padding:7px;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	background:#f6f6f6;
+}
+#cart .cart_table table tbody td,
+#cart .card_table table tbody td {
+	padding:7px;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+#cart .cart_table table tbody td em {
+	color:#f00;
+}
+
+#cart .cart_table table tbody td.must,
+#cart .card_table table tbody td.must {
+	text-indent:-9999px;
+	width:37px;
+	height:18px;
+	background:url(../images/icons/icon_must.gif) no-repeat center;
+}
+
+#cart .cart_table table tbody th.require {
+	background:#f5e6e6;
+}
+
+#cart .cart_table table tbody td p {
+	font-weight:bold;
+	color:#fff;
+	padding:7px;
+	background:#af0000;
+	float:right;
+}
+#cart .cart_table table tbody td p a {
+	display:block;
+	color:#fff;
+	margin:-7px;
+	padding:7px;
+}
+#cart .cart_table table tbody td p a:hover {
+	text-decoration:none;
+	background:#e70000;
+}
+
+
+/* ご注文画面 */
+#cart dl#order_check {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#cart dl#order_check dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#cart dl#order_check dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#cart dl#order_check dt a:hover {
+	background:none;
+}
+
+#cart dl#order_check dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#cart dl#order_check dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_next.gif) no-repeat;
+	border:none;
+}
+#cart dl#order_check dd input:hover {
+	background:url(../images/btns/btn_go_to_next_on.gif) no-repeat;
+}
+
+/* 注文確認画面 */
+#cart dl#purchace {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#cart dl#purchace dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#cart dl#purchace dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#cart dl#purchace dt a:hover {
+	background:none;
+}
+
+#cart dl#purchace dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#cart dl#purchace dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_purchace.gif) no-repeat;
+	border:none;
+}
+#cart dl#purchace dd input:hover {
+	background:url(../images/btns/btn_purchace_on.gif) no-repeat;
+}
+
+
+p.btn_go_to_top {
+	text-indent:-9999px;
+	width:194px;
+	height:44px;
+	margin:0 auto;
+	background:url(../images/btns/btn_go_to_top_on.gif) no-repeat;
+}
+p.btn_go_to_top a {
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_top.gif) no-repeat;
+}
+p.btn_go_to_top a:hover {
+	background:none;
+}
+
+
+
+
+
+

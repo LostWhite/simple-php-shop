@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* *html body			for ie6 */
+/* *:first-child+html	for ie7 */
+
+p.message {
+	text-align:center;
+	color:#f00;
+	margin:0 0 15px 0;
+}
+
+/* メインイメージ */
+#main_image {
+	overflow:hidden;
+	width:100%;
+	max-width:800px;
+	height:250px;
+	margin-bottom: 30px;
+}
+#main_image ul {
+	max-width:800px;
+	height:200px;
+	position:relative;
+}
+#main_image ul li {
+	position:absolute;
+	left:0;
+	top:0;
+	max-width:800px;
+	height:198px;
+	border:1px solid #ddd;
+}
+
+/* 左カラム */
+section#main #main_inner #l_clm h5 {
+	font-size:16px;
+	font-weight:bold;
+	line-height:35px;
+	color:#fff;
+	width:160px;
+	height:35px;
+	padding:0 10px;
+}
+section#main #main_inner #l_clm h5 a {
+	display:block;
+	background-color: #e5e5e5;
+	color:#000;
+	border-bottom: 1px solid #000;
+	width:159px;
+	height:30px;
+	margin:0 -10px;
+	padding:0 10px;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+section#main #main_inner #l_clm h5 a:hover {
+	text-decoration:none;
+	/*background:#cc1b1b;*/
+}
+
+section#main #main_inner #l_clm ul {
+	list-style:none;
+	font-size:12px;
+	line-height:14px;
+	padding: 4px 0 0 0;
+	margin-bottom: 10px;
+	/*border-right:1px solid #e6e6e6;*/
+}
+section#main #main_inner #l_clm ul li {
+}
+
+section#main #main_inner #l_clm ul li a {
+	display:block;
+	color:#000;
+	margin:0;
+	padding:7px 4px 7px 14px;
+	border-bottom: 1px dotted #aaa;
+	background:url(../images/icons/icon_list2.gif) no-repeat 6px 11px;
+}
+
+section#main #main_inner #l_clm ul li:last-child a {
+	border-bottom: 0;
+}
+
+
+
+/* 新刊案内 */
+section#main #main_inner #top_detail #top_detail_inner h3 {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 8px;
+}
+
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease {
+	list-style:none;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li {
+	width:146px;
+	height:190px;
+	padding:20px;
+	float:left;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li .book_img {
+	text-align:center;
+	margin:0 0 5px 0;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li h2 {
+	font-size:12px;
+	line-height:16px;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li a {
+	display:block;
+	width:146px;
+	height:190px;
+	margin:-20px;
+	padding:20px;
+	color:#0058af;
+	background:#fff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li a:hover {
+	text-decoration:none;
+	color:#006eda;
+	background:#f6f6f6;
+}
+section#main #main_inner #top_detail #top_detail_inner ul#newRelease li em {
+	font-weight:bold;
+	color:#c20000;
+}
+
+/****/
+
+#whatsnewarea {
+	clear:both;
+	padding-top: 30px;
+}
+
+#whatsnewarea h4 {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 8px;
+}
+
+ul#whatsnew {min-height: 1px;}
+ul#whatsnew:after {content: '';clear: both;height: 0;display: block;visibility:hidden;}
+
+ul#whatsnew li {
+	padding:5px 0 10px;
+	border-bottom: 1px dotted #aaa;
+}
+
+ul#whatsnew li h5 {
+	font-size: 14px;
+}
+
+p.coname {text-indent:-9999px;}
+
+/****/
+#lclm_banners {
+	list-style:none;
+	margin-top: 10px;
+}
+
+#lclm_banners li {
+	text-align: center;
+}
+
+#lclm_banners li img {
+	width: 160px;
+	margin: 0 auto;
+}

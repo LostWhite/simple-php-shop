@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+
+/*
+ * 申请预测师
+ */
+.center-scaffold .apply_title{
+    width: 89%;
+    font-size: 16px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.center-scaffold .pro_apply{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.center-scaffold .pro_apply tr{
+    display: block;
+    margin: 3px 0;
+}
+.center-scaffold .pro_apply th{
+    width: 110px;
+    background-color: rgba(244, 245, 255, 0);
+}
+.center-scaffold .pro_apply th div{
+    width: 95%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    background-color: #C0F09B;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #959595;
+}
+.center-scaffold .pro_apply td input[type="text"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.center-scaffold .pro_apply td input[type="password"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.center-scaffold .pro_apply td input[type="date"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.center-scaffold .pro_apply td select{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.center-scaffold .pro_apply td textarea{
+    height: 100px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+
+
+/*
+*注册
+*/
+#join_signup h1{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #000;
+    height: 40px;
+    padding: 0 0 0 10px;
+    background: #f6f6f6;
+    border-left: 3px solid #ff8e00;
+}
+#join_signup form{
+    position: relative;
+    left: 8%;
+}
+
+/*
+*预测师简介和服务页面
+*/
+#top_detail #item_info{
+    overflow:auto;
+}
+#top_detail #item_image{
+    float: left;
+    text-align: center;
+    height: 240px;
+    margin: 15px;
+}
+#prophesy_detail{
+    margin: 20px 20px;
+    height: 100%;
+}
+#prophesy_detail .pro_name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0000aa;
+    margin-left: 26px;
+}
+#prophesy_detail .pro_1{
+    font-size: 14px;
+    width: 20%;
+    display: block;
+    float: left;
+    margin-left: 26px;
+}
+#prophesy_detail .pro_2{
+    font-size: 14px;
+    color: #0000aa;
+    width: 50px;
+}
+#prophesy_detail #pro_2{
+    text-indent: 2em;
+    font-size: 14px;
+}
+#top_detail .shop_menu{
+    font-size: 18px;
+    margin: 20px 0;
+}
+#prophesy_detail .pro_a1{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(255, 81, 81);
+    border-radius: 5px;
+    position: relative;
+    left: 20%;
+}
+#prophesy_detail .pro_a2{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(255, 81, 81);
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+}
+#prophesy_detail a{
+    text-decoration:none;
+    color: white;
+}
+
+/*
+*服务项目
+*/
+.per_ser .ser_name{
+    min-height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    overflow:auto;
+}
+.per_ser .ser_content{
+    padding: 15px;
+    font-size: 16px;
+    color: #808080;
+    text-indent: 2em;
+}
+.per_ser .ser_price{
+    text-align: center;
+}
+.per_ser .ser_price em{
+    font-size: 18px;
+}
+.per_ser .ser_price .ser_buy{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(253, 83, 83);
+    height: 35px;
+    line-height: 35px;
+}
+
+
+#prophet_cont p{
+    text-indent: 2em;
+    font-size: 14px;
+}

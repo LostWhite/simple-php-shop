@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+.p_per{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.form_per{
+	
+}
+
+.table_per{
+	width:80%;
+	margin:0 10%
+}
+
+table,th,td
+{
+	border-width:1px;
+}
+
+th{
+	height:30px;
+	width:25%;
+	background-color: #f4f5ff;
+ 	border-right-style:inset;
+	border-bottom-style:inset;
+	border-right-color:#FFFFFF;
+	border-bottom-color:#FFFFFF;
+}
+
+td{
+	padding:5px;
+}
+
+
+.a_per{
+	width:200px;
+	padding:10px;
+	background:url(../../imgr/login/btn_cart_back.gif) no-repeat center;
+	border:none;
+	display: inline-block;
+	text-align: left;
+	text-indent: -9999em;
+	position: relative;
+  	left: 100px;
+  	top: 30px;
+}
+
+.sub_per{
+	width:200px;
+	padding:10px;
+	background:url(../../imgr/login/btn_go_to_next.gif) no-repeat center;
+	border:none;
+	display: inline-block;
+	text-align: left;
+	text-indent: -9999em;
+	position: relative;
+  	left: 150px;
+  	top: 30px;
+}
+
+.td_img{
+	height:150px;
+}
+
+.p_img p{
+	position: relative;
+  	left: 80px;
+}
+
+.per_img{
+	position: relative;
+	left: 15px;
+	top: 20px;
+	float:left;
+	width:23%;
+	height:100%;
+}
+.per_img .per_img_true{
+    width: 132px;
+    text-align: center;
+}
+.per_img .per_img_true h2{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    color: #0000ff;
+}
+.per_img .per_img_true em{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+}
+.per_img .per_img_mes{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #99179a;
+    min-height: 70px;
+}
+
+#per_mes{
+	position: relative;
+	top:10px;
+}
+#per_mes span{
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    padding:0 0 0 0;
+}
+#per_mes .span_th{
+    font-weight:800;
+    color: green;
+    width: 10%;
+    font-size: 16px;
+	font-family:黑体;
+}
+#per_mes .span_td{
+    color: blue;
+    width: 20%;
+    font-size: 15px;
+	font-family:;
+}
+
+#per_yc{
+	height:220px;
+}
+
+#porphet_menu{
+    min-height: 280px;
+}
+
+/*
+ * 财务管理
+ */
+
+#property_mes{
+	min-height:180px;
+}
+
+#main_property{
+	min-height:200px;
+}
+
+#property_mess table{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+#property_mess th{
+    color:green;
+}
+#property_mess td{
+    color:blue;
+}
+
+#property_mes table{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+
+#property_mes table th{
+	width:10%;
+}
+
+.order_sub{
+	height:30px;
+	width:80px;
+	position: relative;
+	top:15px;
+	left:700px;
+}
+
+/*
+财务明细
+*/
+.tab3 .tab3Body {
+    border: 1px solid #c8c8c8;
+    border-top: 0;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.tab3 td, ul, li, dl, dt, dd, h2, h3, h4 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.a-totle1 th{
+    width: 20%;
+}
+
+.tab3 {
+    font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+    line-height: 150%;
+}
+
+.tab3 .tab3Tag {
+    border-bottom: 1px solid #c9c9c9;
+    height: 30px;
+    position: relative;
+}
+
+.tab3 .tab3Tag {
+    border-bottom: 1px solid #c9c9c9;
+    height: 30px;
+    position: relative;
+}
+
+.tab3 .tab3Tag ul li.tab_on {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    height: 18px;
+}
+.tab3 .tab3Tag ul li {
+    background: #f0e0e0;
+    border: 1px solid #c8c8c8;
+    bottom: -1px;
+    cursor: pointer;
+    height: 18px;
+    float: left;
+    padding: 5px 15px;
+    margin-right: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.a-totle1{
+    min-height: 520px;
+}
+
+.a-totle1 table{
+    position: relative;
+    top:10px;
+    margin: 0 10px;
+}
+
+.p-totle1{
+    min-height: 720px;
+}
+
+.p-totle1 table{
+    position: relative;
+    top:10px;
+    margin: 0 10px;
+}
+
+.p-totle1 th{
+    width: 15%;
+}
+
+.p-totle1 .page{
+    position:relative;
+    top:50px;
+    float:right;
+}
+
+.a-totle1 .page{
+    position:relative;
+    top:50px;
+    float:right;
+}
+
+#top_detail_inner #per_yc{
+    min-height: 720px;
+}
+
+#collect_pro{
+    float: left;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    margin: 5px 5px 5px 5px;
+    min-height: 150px;
+}
+#collect_pro .yuce_img{
+    float: left;
+    width: 160px;
+}
+#collect_pro .yuce_img img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#collect_pro span{
+    float: left;
+    width: 20%;
+}
+#collect_pro #yuce_mes{
+    position: relative;
+    top: 10px;
+}
+#collect_pro .yuceshi{
+    float: right;
+    position: relative;
+    right: 10px;
+    width: 138px;
+    font-size: 15px;
+    border: 1px solid #ff9c93;
+}
+
+#per_pro{
+    min-height: 220px;
+}
+
+/*
+*文章
+*/
+#top_detail .p_title{
+    position: relative;
+    top:20px;
+    border-bottom: 1px solid #98bbe6;
+    min-height: 35px;
+}
+
+#top_detail .p_title span a{
+    position: relative;
+    left:90%;
+    color: red;
+    font-size: 20px;
+}
+
+#co_kyouhan_table{
+    position: relative;
+    top:50px;
+    min-height: 800px;
+}
+
+#top_detail .author{
+    position: relative;
+    top:30px;
+}
+
+#top_detail{
+    min-height: 1000px;
+}
+
+/*
+*购买提现算卦币
+*/
+#top_detail_inner .recharge_title{
+    height: 100px;
+    line-height:100px;
+    overflow:hidden;
+    font-size: 14px;
+}
+.p-totle1 .recharge_num{
+    height: 100px;
+    line-height:100px;
+    width: 100%;
+    padding: 0 30px;
+    font-size: 14px;
+}
+.p-totle1 .recharge_quick{
+    min-height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 14px;
+}
+.p-totle1 .recharge_quick td{
+    border-color: #fff;
+}
+.p-totle1 .recharge_quick img{
+    height: 51px;
+    width: 139px;
+}
+.p-totle1 .recharge_banking{
+    min-height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 14px;
+}
+.p-totle1 .recharge_banking td{
+    border-color: #fff;
+}
+.p-totle1 .recharge_banking img{
+    height: 21px;
+    width: 100px;
+}
+.p-totle1 .recharge_send{
+    position: relative;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    line-height: 35px;
+    top: 30px;
+    left: 80px;
+    background-color: red;
+    color: #fff;
+}
+
+.p-totle1 .user_teacher_content01{
+    font-size: 14px;
+}
+.p-totle1 .user_teacher_content01 td{
+    line-height: 35px;
+    border-color: #fff;
+}
+
+.p-totle1 table tr{
+    height : 50px;
+    border-bottom: solid 1px rgb(216, 215, 215);
+}
+
+#l_clm li{
+    font-size: 14px;
+}
+
+
+/*
+*个人资料修改
+*/
+#top_detail_inner .table_per th{
+    width: 17%;
+}
+#top_detail_inner .table_per tr{
+    line-height: 35px;
+}
+#top_detail_inner .per_content input .radio {
+    float: left;
+}
+
+/*
+*预测师资料修改
+*/
+#top_detail_inner .form_pro_add{
+    width: 100%;
+}
+#top_detail_inner .table_pro_add{
+    width: 100%;
+}
+
+
+/*
+*服务评价
+*/
+#ass_detail {
+    min-height: 600px;
+}
+#ass_detail form{
+    width: 100%;
+}
+#ass_detail .ass_detail{
+    margin: 0 auto;
+    border: 1px #DFDFDF solid;
+    width: 80%;
+    font-size: 15px;
+}
+#ass_detail .ass_detail tr{
+    line-height: 50px;
+}
+#ass_detail .ass_detail th{
+    text-align: right;
+}
+#ass_detail #ass_content{
+    min-height: 100px;
+    width: 400px;
+}
+.sub_btn .btn_sub{
+    position: relative;
+    top: 20px;
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 60px;
+    background-color: #FF6464;
+    border-radius: 5px;
+}
+.rating{
+    width:80px;
+    height:16px;
+    margin:0 0 20px 0;
+    padding:0;
+    list-style:none;
+    clear:both;
+    position:relative;
+    background: url(../../img/star-matrix.gif) no-repeat 0 0;
+}
+/* add these classes to the ul to effect the change to the correct number of stars */
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -64px}
+.fivestar {background-position:0 -80px}
+ul.rating li {
+    cursor: pointer;
+    /*ie5 mac doesn't like it if the list is floated\*/
+    float:left;
+    /* end hide*/
+    text-indent:-999em;
+}
+ul.rating li a {
+    position:absolute;
+    left:0;
+    top:0;
+    width:16px;
+    height:16px;
+    text-decoration:none;
+    z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover {
+    z-index:2;
+    width:80px;
+    height:16px;
+    overflow:hidden;
+    left:0;
+    background: url(../../img/star-matrix.gif) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -96px;}
+ul.rating li.two a:hover {background-position:0 -112px;}
+ul.rating li.three a:hover {background-position:0 -128px}
+ul.rating li.four a:hover {background-position:0 -144px}
+ul.rating li.five a:hover {background-position:0 -160px}
+
+
+/*
+*修改数据表格
+*/

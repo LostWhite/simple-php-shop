@@ -1,0 +1,919 @@
+@charset "UTF-8";
+
+/* *html body			for ie6 */
+/* *:first-child+html	for ie7 */
+
+/* マイページログイン */
+#mypage_login h1 {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 8px;
+	margin: 20px 0 10px;
+}
+#mypage_login h2 {
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* ログインフォーム */
+#mypage_login #login_form {
+	text-align:center;
+	width:50%;
+	height:310px;
+	margin:15px auto 50px auto;
+	padding:20px 0 0 0;
+	background: #f2f2f2;
+}
+section#main #main_inner #top_detail #mypage_login #login_form h4 {
+	font-size:20px;
+	line-height:28px;
+	color:#0096c8;
+	margin:0;
+}
+
+#mypage_login #login_form table {
+	width:100%;
+	height:120px;
+	margin:0 auto;
+}
+#mypage_login #login_form table th {
+	vertical-align:middle;
+	text-align:center;
+	font-size:12px;
+	font-weight:normal;
+	line-height:18px;
+	color:#0000ff;
+	width:90px;
+	height:40px;
+	padding:10px;
+}
+#mypage_login #login_form table th em {
+	font-size:16px;
+	font-weight:bold;
+}
+#mypage_login #login_form table td {
+	text-align:left;
+	width:250px;
+	height:40px;
+	padding:10px;
+}
+#mypage_login #login_form table td input {
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+	font-size:20px;
+	line-height:20px;
+	width:240px;
+	height:20px;
+	padding:10px;
+	background:url(../img/input_text.gif) no-repeat;
+	border:none;
+}
+
+#mypage_login #login_form p {
+	margin:0 0 5px 0;
+}
+#mypage_login #login_form p.caution {
+	font-weight:bold;
+	color:#f00;
+	margin:0 0 0 10px;
+	text-align: center;
+}
+#mypage_login #login_form p.btn_login input {
+	display:block;
+	cursor:pointer;
+	width:230px;
+	height:60px;
+	margin:0 auto -10px auto;
+	background:url(../img/input_text.gif) no-repeat;
+	border:none;
+}
+#mypage_login #login_form p.btn_login input:hover {
+	background:url(../imgr/login/btn_login_on.gif) no-repeat;
+}
+
+
+#mypage_login p.btn_nonmember {
+	text-indent:-9999px;
+	width:310px;
+	height:60px;
+	margin:-10px auto 30px auto;
+	background:url(../images/btns/btn_nonmember_on.png) no-repeat;
+}
+#mypage_login p.btn_nonmember a {
+	display:block;
+	width:310px;
+	height:60px;
+	background:url(../images/btns/btn_nonmember.png) no-repeat;
+}
+#mypage_login p.btn_nonmember a:hover {
+	background:none;
+}
+
+
+/* リマインダーフォーム */
+#mypage_login #reminder_form {
+	text-align:center;
+	width:690px;
+	height:310px;
+	margin:15px auto 20px auto;
+	padding:20px 0 0 0;
+	background:url(../images/bgs/bg_mypage_reminder_form.gif) no-repeat;
+}
+section#main #main_inner #top_detail #mypage_login #reminder_form h4 {
+	font-size:20px;
+	line-height:28px;
+	color:#0096c8;
+	margin:0;
+}
+
+#mypage_login #reminder_form table {
+	width:500px;
+	height:120px;
+	margin:20px auto 0 auto;
+}
+#mypage_login #reminder_form table th {
+	vertical-align:middle;
+	text-align:left;
+	font-size:12px;
+	font-weight:normal;
+	line-height:18px;
+	color:#000;
+	width:160px;
+	height:40px;
+	padding:10px;
+}
+#mypage_login #reminder_form table th em {
+	font-size:16px;
+	font-weight:bold;
+}
+#mypage_login #reminder_form table td {
+	text-align:left;
+	width:300px;
+	height:40px;
+	padding:10px;
+}
+#mypage_login #reminder_form table td input {
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+	font-size:20px;
+	line-height:20px;
+	width:280px;
+	height:20px;
+	padding:10px;
+	background:url(../imgr/login/bg_login_form.gif) no-repeat;
+	border:none;
+}
+
+#mypage_login dl#reminder {
+	width:400px;
+	margin:10px auto 0 auto;
+}
+#mypage_login dl#reminder dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#mypage_login dl#reminder dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#mypage_login dl#reminder dt a:hover {
+	background:none;
+}
+
+#mypage_login dl#reminder dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#mypage_login dl#reminder dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_next.gif) no-repeat;
+	border:none;
+}
+#mypage_login dl#reminder dd input:hover {
+	background:url(../images/btns/btn_go_to_next_on.gif) no-repeat;
+}
+
+
+/* マイページとは */
+#mypage_login .mypage_detail {
+	margin:0 20px 20px 20px;
+	padding:20px 20px 10px 20px;
+	background:#f9f9f9;
+	border:1px solid #ccc;
+}
+#mypage_login .mypage_detail h3 {
+	font-size:14px;
+	font-weight:bold;
+	line-height:16px;
+	color:#000;
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	border-bottom:1px solid #ddd;
+}
+#mypage_login .mypage_detail ul {
+	list-style:none;
+	margin:0 0 10px 5px;
+}
+#mypage_login .mypage_detail ul li {
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	padding:0 0 0 10px;
+	background:url(../images/icons/icon_cart_list.gif) no-repeat 0 center;
+}
+
+#mypage_login .mypage_detail p.btn_register {
+	text-indent:-9999px;
+	width:310px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/btns/btn_member_register_on.png) no-repeat;
+}
+#mypage_login .mypage_detail p.btn_register a {
+	display:block;
+	width:310px;
+	height:60px;
+	background:url(../images/btns/btn_member_register.png) no-repeat;
+}
+#mypage_login .mypage_detail p.btn_register a:hover {
+	background:none;
+}
+
+
+/* お客様情報の取扱い */
+#mypage_login .mypage_detail_privacy {
+	margin:0 0 20px 0;
+	padding:20px;
+}
+#mypage_login .mypage_detail_privacy ol {
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	margin:-5px 0 0 15px;
+}
+#mypage_login .mypage_detail_privacy ol li {
+	margin-bottom: 10px;
+}
+#mypage_login .mypage_detail_privacy ol li em {
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+}
+
+
+
+/* マイページ */
+#mypage h1 {
+	font-size:18px;
+	font-weight:bold;
+	line-height:40px;
+	color:#000;
+	height:40px;
+	padding:0 0 0 10px;
+	background:#f6f6f6;
+	border-left:3px solid #ff8e00;
+}
+#mypage h2 {
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+	color:#000;
+	height:30px;
+	padding:0 0 0 10px;
+	background:#f6f6f6;
+	border-left:3px solid #ff8e00;
+}
+
+#mypage ul#mypage_nav {
+	list-style:none;
+	width:800px;
+	height:50px;
+	margin:20px auto 40px auto;
+}
+#mypage ul#mypage_nav li {
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	line-height:28px;
+	width:168px;
+	height:28px;
+	margin:0 5px;
+	padding:10px;
+	background:url(../images/bgs/bg_mypage_nav_on.gif) repeat-x;
+	border:1px solid #0058af;
+	border-radius:5px;
+	float:left;
+}
+#mypage ul#mypage_nav li a {
+	display:block;
+	color:#fff;
+	width:168px;
+	height:28px;
+	margin:-10px;
+	padding:10px;
+	background:url(../images/bgs/bg_mypage_nav.gif) repeat-x;
+	border-radius:5px;
+}
+#mypage ul#mypage_nav li a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:none;
+}
+
+
+/* ほしいものリスト */
+#mypage .mypage_wishlist {
+	margin:0 0 20px 0;
+	padding:10px 20px 20px 20px;
+	background:#f9f9f9;
+}
+#mypage .mypage_wishlist ul {
+	list-style:none;
+}
+#mypage .mypage_wishlist ul li {
+	color:#000;
+	height:180px;
+	margin:20px 0 0 0;
+	border-bottom:1px solid #ddd;
+}
+#mypage .mypage_wishlist ul li .wish_img {
+	text-align:center;
+	width:140px;
+	height:130px;
+	margin:0 20px 20px 0;
+	float:left;
+}
+#mypage .mypage_wishlist ul li .wish_img img {
+	height:130px;
+}
+#mypage .mypage_wishlist ul li h3 {
+	font-size:16px;
+	font-weight:bold;
+	line-height:24px;
+	margin:0 0 0 110px;
+}
+#mypage .mypage_wishlist ul li h3 a {
+	color:#0058AF;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+#mypage .mypage_wishlist ul li h3 a:hover {
+	color:#2a91f8;
+}
+section#main #main_inner #top_detail #mypage .mypage_wishlist ul li h4 {
+	font-size:14px;
+	font-weight:normal;
+	color:#000;
+	margin:10px 0 10px 160px;
+}
+section#main #main_inner #top_detail #mypage .mypage_wishlist ul li p {
+	line-height:18px;
+	margin:0 0 0 160px;
+}
+section#main #main_inner #top_detail #mypage .mypage_wishlist ul li p em {
+	font-size:14px;
+	font-weight:bold;
+	color:#f00;
+}
+
+#mypage .mypage_wishlist ul li dl {
+	width:410px;
+	height:40px;
+	margin:5px 0 5px 160px;
+}
+#mypage .mypage_wishlist ul li dl dt {
+	text-indent:-9999px;
+	width:210px;
+	height:40px;
+	background:url(../images/btns/btn_cart_on.png) no-repeat;
+	float:left;
+}
+#mypage .mypage_wishlist ul li dl dt a {
+	display:block;
+	width:210px;
+	height:40px;
+	background:url(../images/btns/btn_cart.png) no-repeat;
+}
+#mypage .mypage_wishlist ul li dl dt a:hover {
+	background:none;
+}
+#mypage .mypage_wishlist ul li dl dd {
+	line-height:40px;
+	width:180px;
+	height:40px;
+	padding:0 0 0 10px;
+	float:left;
+}
+#mypage .mypage_wishlist ul li dl dd a {
+	color:#f00;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+#mypage .mypage_wishlist ul li dl dd a:hover {
+	color:#ff1f11;
+}
+
+
+/* おすすめ商品 */
+#mypage .mypage_recommend {
+	padding:20px;
+}
+#mypage .mypage_recommend ul {
+	list-style:none;
+}
+#mypage .mypage_recommend ul li {
+	width:146px;
+	height:190px;
+	padding:20px;
+	float:left;
+}
+#mypage .mypage_recommend ul li .book_img {
+	text-align:center;
+	margin:0 0 5px 0;
+}
+#mypage .mypage_recommend ul li h2 {
+	font-size:12px;
+	line-height:16px;
+}
+#mypage .mypage_recommend ul li a {
+	display:block;
+	color:#0058af;
+	width:146px;
+	height:190px;
+	margin:-20px;
+	padding:20px;
+	background:#fff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+#mypage .mypage_recommend ul li a:hover {
+	text-decoration:none;
+	color:#006eda;
+	background:#f6f6f6;
+}
+#mypage .mypage_recommend ul li em {
+	font-weight:bold;
+	color:#c20000;
+}
+
+
+/* 購入履歴 */
+#mypage .buying_history {
+	padding:20px;
+}
+#mypage .buying_history table {
+	clear:both;
+	width:100%;
+	margin:-15px 0 20px 0;
+}
+#mypage .buying_history table thead tr th {
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+	padding:7px;
+	background:#666;
+}
+#mypage .buying_history table tbody tr th {
+	text-align:left;
+	font-weight:normal;
+	padding:7px;
+	background:#eee;
+}
+#mypage .buying_history table tbody tr th.img {
+	text-align:center;
+}
+#mypage .buying_history table tbody tr td {
+	padding:7px;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+#mypage .buying_history table tbody tr td:nth-child(4),
+#mypage .buying_history table tbody tr td:nth-child(6) {
+	text-align:center;
+}
+#mypage .buying_history table tbody tr td:nth-child(7) {
+	text-align:center;
+	border-right:1px solid #ddd;
+}
+#mypage .buying_history table tbody tr td a,
+#mypage .buying_history table tbody tr td a:hover {
+	color:#0058AF;
+}
+#mypage .buying_history table tbody tr td dl {
+	width:560px;
+}
+#mypage .buying_history table tbody tr td dl dt {
+	width:80px;
+	float:left;
+}
+#mypage .buying_history table tbody tr td dl dd {
+	width:480px;
+	float:left;
+}
+
+#mypage .buying_history p.back_buyhis {
+	padding:0 0 0 10px;
+	background:url(../images/icons/icon_cart_list.gif) no-repeat 0 0.7em;
+	float:right;
+}
+#mypage .buying_history p.back_buyhis a {
+	color:#ff4800;
+}
+
+
+/* 会員情報 */
+#mypage .form_detail {
+	margin:0 0 20px 0;
+	padding:20px;
+}
+#mypage .form_detail table {
+	font-size:14px;
+	width:100%;
+}
+#mypage .form_detail table tbody th {
+	text-align:left;
+	vertical-align:top;
+	font-weight:bold;
+	color:#000;
+	width:180px;
+	padding:7px;
+	background:#f6f6f6;
+	border-bottom:1px solid #ddd;
+	border-right:3px solid #d2ebff;
+}
+#mypage .form_detail table tbody th.require {
+	background:#f5e6e6;
+}
+#mypage .form_detail table tbody td {
+	text-align:left;
+	padding:7px;
+	border-bottom:1px solid #ddd;
+}
+#mypage .form_detail table tbody td p {
+	margin:0;
+}
+#mypage .form_detail table tbody em {
+	color:#f00;
+}
+#mypage .form_detail table tbody td.must {
+	text-indent:-9999px;
+	width:37px;
+	height:18px;
+	background:url(../images/icons/icon_must.gif) no-repeat center;
+}
+
+
+#mypage .form_detail p.btn_newaddress {
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	width:200px;
+	padding:5px;
+	border-radius:5px;
+	background:#590;
+	float:right;
+}
+#mypage .form_detail p.btn_newaddress a {
+	display:block;
+	color:#fff;
+	width:200px;
+	margin:-5px;
+	padding:5px;
+	border-radius:5px;
+}
+#mypage .form_detail p.btn_newaddress a:hover {
+	text-decoration:none;
+	border-radius:5px;
+	background:#6fc700;
+}
+
+
+#mypage dl#join_member_check {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#mypage dl#join_member_check dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#mypage dl#join_member_check dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#mypage dl#join_member_check dt a:hover {
+	background:none;
+}
+
+#mypage dl#join_member_check dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#mypage dl#join_member_check dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_next.gif) no-repeat;
+	border:none;
+}
+#mypage dl#join_member_check dd input:hover {
+	background:url(../images/btns/btn_go_to_next_on.gif) no-repeat;
+}
+
+
+#mypage dl#registration {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#mypage dl#registration dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#mypage dl#registration dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#mypage dl#registration dt a:hover {
+	background:none;
+}
+
+#mypage dl#registration dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#mypage dl#registration dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_registration.gif) no-repeat;
+	border:none;
+}
+#mypage dl#registration dd input:hover {
+	background:url(../images/btns/btn_registration_on.gif) no-repeat;
+}
+
+
+
+#mypage .form_detail .address {
+	padding:20px;
+	border:1px solid #ddd;
+}
+#mypage .form_detail .address ol li {
+	color:#000;
+	width:375px;
+	margin:0 0 30px 20px;
+	float:left;
+}
+
+#mypage .form_detail .address p {
+	text-align:center;
+	font-weight:bold;
+	width:100px;
+	margin:0 10px 0 0;
+	padding:3px;
+	border-radius:5px;
+	background:#fff;
+	float:left;
+}
+#mypage .form_detail .address p a {
+	display:block;
+	width:100px;
+	margin:-3px;
+	padding:3px;
+}
+#mypage .form_detail .address p.btn_change {
+	background:#FF8E00;
+}
+#mypage .form_detail .address p.btn_change a {
+	color:#fff;
+	border-radius:5px;
+}
+#mypage .form_detail .address p.btn_change a:hover {
+	text-decoration:none;
+	border-radius:5px;
+	background:#ffa739;
+}
+#mypage .form_detail .address p.btn_delete {
+	background:#c00;
+}
+#mypage .form_detail .address p.btn_delete a {
+	color:#fff;
+	border-radius:5px;
+}
+#mypage .form_detail .address p.btn_delete a:hover {
+	text-decoration:none;
+	border-radius:5px;
+	background:#f00;
+}
+
+
+
+
+#mypage p.btn_changeinfo {
+	text-indent:-9999px;
+	width:194px;
+	height:44px;
+	margin:0 auto;
+	background:url(../images/btns/btn_changeinfo_on.gif) no-repeat;
+}
+#mypage p.btn_changeinfo a {
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_changeinfo.gif) no-repeat;
+}
+#mypage p.btn_changeinfo a:hover {
+	background:none;
+}
+
+#mypage dl#member_check {
+	width:400px;
+	margin:25px auto 0 auto;
+}
+#mypage dl#member_check dt {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	background:url(../images/btns/btn_cart_back_on.gif) no-repeat;
+	float:left;
+}
+#mypage dl#member_check dt a {
+	text-indent:-9999px;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_cart_back.gif) no-repeat;
+}
+#mypage dl#member_check dt a:hover {
+	background:none;
+}
+
+#mypage dl#member_check dd {
+	width:194px;
+	height:44px;
+	margin:0 3px;
+	float:left;
+}
+#mypage dl#member_check dd input {
+	text-indent:-9999px;
+	cursor:pointer;
+	display:block;
+	width:194px;
+	height:44px;
+	background:url(../images/btns/btn_go_to_next.gif) no-repeat;
+	border:none;
+}
+#mypage dl#member_check dd input:hover {
+	background:url(../images/btns/btn_go_to_next_on.gif) no-repeat;
+}
+
+
+
+/* Facebook ワイド */
+section#main #main_inner #top_detail #facebook_wide_2nd {
+	clear:both;
+	width:760px;
+	height:430px;
+	margin:40px auto 0 auto;
+	background:#eee;
+}
+
+
+/* 領収書発行 */
+#receipt {
+	text-align:center;
+	width:550px;
+	margin:0 auto;
+	padding:20px 0 0 0;
+	background:url(../images/bgs/bg_dd_stamp.gif) no-repeat 470px 135px;
+	border:1px solid #666;
+}
+
+#receipt h1 {
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	color:#000;
+	margin:30px 0 40px 0;
+}
+#receipt h2 {
+	text-align:right;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	margin:0 10px 10px 0;
+}
+#receipt h3 {
+	text-align:right;
+	font-size:14px;
+	font-weight:normal;
+	color:#000;
+	margin:0 10px 10px 0;
+}
+#receipt h4 {
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+	margin:20px 10px 10px 10px;
+	padding:10px 0;
+	border-bottom:3px double #ddd;
+}
+#receipt h5 {
+	text-align:left;
+	font-size:14px;
+	font-weight:normal;
+	color:#000;
+	width:200px;
+	margin:0 10px;
+	padding:10px 0;
+	border-bottom:1px solid #ddd;
+}
+#receipt p {
+	text-align:left;
+	line-height:18px;
+	margin:0 0 10px 10px;
+}
+
+
+#receipt table {
+	width:530px;
+	margin:0 auto;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+#receipt table th {
+	padding:5px;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	background:#f6f6f6;
+}
+#receipt table td {
+	font-size:14px;
+	padding:5px;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+
+#receipt table td dl {
+	text-align:left;
+	width:400px;
+}
+#receipt table td dl dt {
+	width:70px;
+	float:left;
+}
+#receipt table td dl dd {
+	width:330px;
+	float:left;
+}
+
+#receipt p.receipt_address {
+	margin:0 20px 0 0;
+	float:right;
+}
+
+
+
+
+

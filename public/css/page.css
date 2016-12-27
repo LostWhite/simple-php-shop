@@ -1,0 +1,35 @@
+
+
+/* CSS注释： 黑色背景的css分页代码 */ 
+div .black { 
+PaDDING-RIGHT: 3px; PaDDING-LEFT: 3px; FONT-SIZE: 80%;
+ PaDDING-BOTTOM: 10px; MaRGIN: 3px; COLOR: #80FFFF; PaDDING-TOP: 10px;
+ BaCKGROUND-COLOR: #ececff	; TEXT-aLIGN: center 
+} 
+div .black a { 
+BORDER-RIGHT: #909090 1px solid; PaDDING-RIGHT: 5px; 
+BaCKGROUND-POSITION: 50% bottom; BORDER-TOP: #909090 1px solid;
+ PaDDING-LEFT: 5px;  PaDDING-BOTTOM: 2px;
+ BORDER-LEFT: #909090 1px solid; COLOR: #0072E3; MaRGIN-RIGHT: 3px;
+ PaDDING-TOP: 2px; BORDER-BOTTOM: #909090 1px solid; TEXT-DECORaTION: none 
+} 
+div .black a:hover { 
+BORDER-RIGHT: #FFCCFF 1px solid; BORDER-TOP: #FFCCFF 1px solid;
+BORDER-LEFT: #FFCCFF 1px solid;
+ COLOR: #0066FF; BORDER-BOTTOM: #FFCCFF 1px solid; BaCKGROUND-COLOR: #2894FF 
+} 
+div .black a:active { 
+BORDER-RIGHT: #FFCCFF 1px solid; BORDER-TOP: #FFCCFF 1px solid; 
+BORDER-LEFT: #FFCCFF 1px solid; 
+COLOR: #0066FF; BORDER-BOTTOM: #FFCCFF 1px solid; BaCKGROUND-COLOR: #2894FF
+} 
+div .black span.current { 
+BORDER-RIGHT: #0066FF 1px solid; PaDDING-RIGHT: 5px; BORDER-TOP: #0066FF 1px solid;
+ PaDDING-LEFT: 5px; FONT-WEIGHT: bold; PaDDING-BOTTOM: 2px;
+ BORDER-LEFT: #0066FF 1px solid; COLOR: #0066FF; MaRGIN-RIGHT: 3px; 
+PaDDING-TOP: 2px; BORDER-BOTTOM: #0066FF 1px solid; BaCKGROUND-COLOR: #66B3FF 
+} 
+div .black span.disabled { 
+BORDER-RIGHT: #66B3FF 1px solid; PaDDING-RIGHT: 5px; BORDER-TOP: #66B3FF 1px solid;
+ PaDDING-LEFT: 5px; PaDDING-BOTTOM: 2px; BORDER-LEFT: #66B3FF 1px solid; 
+COLOR: #808080; MaRGIN-RIGHT: 3px; PaDDING-TOP: 2px; BORDER-BOTTOM: #66B3FF 1px solid

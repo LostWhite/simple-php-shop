@@ -1,0 +1,64 @@
+.ebook .apply_title{
+    width: 89%;
+    font-size: 16px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.ebook .edn{
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.ebook .edn tr{
+    display: block;
+    margin: 3px 0;
+}
+.ebook .edn th{
+    width: 100px;
+    background-color: rgba(244, 245, 255, 0);
+}
+.ebook .edn th div{
+    width: 95%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+    background-color: #D2E9FF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #959595;
+}
+.ebook .edn td input[type="text"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.ebook .edn td input[type="password"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.ebook .edn td input[type="date"]{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.ebook .edn td select{
+    height: 35px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}
+.ebook .edn td textarea{
+    height: 100px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #959595;
+    margin: 0;
+}

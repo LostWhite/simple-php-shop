@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+#prophesy_detail{
+	height:300px;
+	position: relative;
+	left:40px;
+	top:25px;
+}
+
+#prophesy_detail span{
+    display: inline-block;
+}
+#prophesy_detail .pro_name{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000088;
+}
+#prophesy_detail .pro_1{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000088;
+    width: 8%;
+}
+#prophesy_detail .pro_2{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c85387;
+    width: 12%;
+}
+#pro_2{
+	display:block;
+	white-space:normal;
+	width:90%;
+    font-size: 13px;
+    color: #a6557a;
+}
+#prophesy_detail .pro_a1{
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left: 150px;
+}
+#prophesy_detail .pro_a2{
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left: 250px;
+}
+
+.shop_menu a{
+	font-size:15px;
+}
+
+#s_menu{
+	display:block;
+	float:left;
+	width:100px;
+}
+
+.shop_menu span{
+	position: relative;
+	top:10px;
+}
+
+.shop_img{
+	position: relative;
+	left: 15px;
+	top:20px;
+	float:left;
+	width:25%;
+	height:200px;
+}
+
+.shop_img h2{
+	color:red;
+}
+
+#down_detail{
+	position: relative;
+	top:20px;
+    min-height: 700px;
+}
+
+#down_detail .page{
+    position:relative;
+    top:50px;
+    float:right;
+}
+
+.shop_con{
+	width : 100%;
+	font-size:15px;
+	color:#7c7c7c;
+}
+
+.shop_con td{
+	background-color:#eee;
+	padding:5px;
+	text-align:left;
+}
+
+.h1_cont{
+	font-size:20px;
+}
+
+#down_detail p{
+	text-indent:18pt;
+}
+
+.h2_cont{
+	font-size:13px;
+	text-align:right;
+	height:20px;
+}
+
+/*
+ * 商品页面
+ */
+
+.h2_goods_content{
+	position: relative;
+	top:20px;
+	font-size:15px;
+	color:red;
+}
+
+#goods_detail{
+	min-height:300px;
+	position: relative;
+	left:40px;
+	top:10px;
+}
+
+.goods_mes{
+	width:70%;
+	position: relative;
+	top:30px;
+}
+
+.goods_mes td{
+	height:30px;
+}
+
+.goods_td1{
+	width:15%;
+}
+
+.goods_a1{
+	position: relative;
+	top:50px;
+	left:80px;
+}
+
+.goods_a2{
+	position: relative;
+	top:50px;
+	left:250px;
+}
+
+/*
+ * 商城页面
+ */
+
+#shopgoods_detail{
+	height:100px;
+	position: relative;
+	left:40px;
+	top:25px;
+}

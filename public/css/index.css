@@ -1,0 +1,510 @@
+@charset "UTF-8";
+
+.page{
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+	
+	font-size:15px;
+}
+
+.myhead{
+	text-align:right;
+	margin-left:auto; 
+	margin-right:auto;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#detail_inner{
+	position: relative;
+	left:15px;
+	min-height:600px;
+}
+
+#detail_inner li{
+	display:block; 
+	float:left;
+	width:32%;
+	min-height:260px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #98bbe6;
+}
+
+.page_index{
+	 clear:both
+}
+
+.eval_index{
+	height:40px;
+	background-color: #FFFFCC;
+}
+
+.services_part1{
+    float:left;
+    height: 160px;
+    width: 130px;
+    position: relative;
+    left:5px;
+    top: 5px;
+}
+.services_part2{
+    height: 160px;
+}
+.services_part2 span{
+    position: relative;
+    left:15px;
+    top: 15px;
+    display: block;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.services_part3 p{
+    height: 50px;
+    text-indent: 2em;
+    margin: 0 7px 7px 7px;
+    font-weight: 700;
+}
+.p-icon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/*
+*header
+*/
+#header_inner .header_inner{
+    position: relative;
+    top: 7px;
+}
+#logo_index{
+    width: 200px;
+    height: 35px;
+    float:left;
+}
+#search_box{
+    position: relative;
+    width: 30%;
+    height: 30px;
+    float:left;
+    padding: 3px;
+    left: 15px;
+}
+#login_index{
+    width: 45%;
+    height: 35px;
+    float:right;
+    font-size: 16px;
+    font-weight: 700;
+}
+#login_index li{
+    float:left;
+    width: 33%;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+#text_keyword{
+    border-radius: 0px;
+}
+
+
+.ser_content{
+    min-height:130px;
+}
+
+.per_ser h2{
+    font-size: 14px;
+    color: #9A0000;
+}
+
+.per_ser{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    float:left;
+    width:23%;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #98bbe6;
+}
+
+.services_part3 span{
+    position: relative;
+    left: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #957ABD;
+    background-color: #FFB36C;
+    text-decoration:none;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+#top_detail .service_title{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px;
+    background-color: #dfdfdf;
+}
+
+
+/**
+*登录
+*/
+#login_form form{
+    width: 100%;
+    height: 100%;
+}
+#login_form .th1{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+#login_form .login_tail{
+    position: relative;
+    top: 50px;
+}
+
+#login_form .login_pd{
+    float: left;
+    width: 30%;
+    height: 35px;
+    position: relative;
+    top: 12px;
+}
+#login_form .login_pd #cookie{
+    float: left;
+}
+#login_form .login_pd span{
+    float: right;
+    width: 90px;
+}
+.btn .btn-primary{
+    width: 200px;
+}
+#login_form .login_btn{
+    float: left;
+    width: 120px;
+}
+#btn_sub{
+    width: 100px;
+    height: 35px;
+    font-weight: 900;
+}
+#login_form .login_forget{
+    float: left;
+    width: 30%;
+}
+
+/*
+*赏金求测
+*/
+.reward_body{
+    width: 85%;
+    min-height: 500px;
+    overflow:auto;
+    border-right: solid 1px #D1D1D1;
+}
+.reward_head{
+    width: 99%;
+    height: 150px;
+    //border: solid 1px #000077;
+}
+.reward_head table{
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 95%;
+}
+.reward_head td{
+    width: 33%;
+}
+.reward_head span{
+    color: red;
+    width: 80px;
+}
+
+.reward_detail{
+    width: 100%;
+    min-height: 250px;
+}
+.reward_detail table{
+    margin: 0 auto;
+    white-space:normal;
+    width: 100%;
+}
+.reward_detail th{
+    width: 11%;
+}
+.reward_detail td{
+    border:0.5px solid #BDBDBD;
+}
+.reward_body a{
+    color: #0000ff;
+}
+.reward_body .red{
+    color: red;
+}
+
+.detail_1{
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFEF;
+    border-bottom: solid 1px #D8DA98;
+}
+.detail_1_img{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.detail_1 .detail_1_li1{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.detail_1 .detail_1_li2{
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.detail_1 .detail_1_li3{
+    position: relative;
+    top: 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.detail_2{
+    width: 100%;
+    height: 250px;
+    border-top: solid 1px #E7E7E7;
+    border-bottom: solid 1px #E7E7E7;
+    margin: 10px 0;
+}
+.detail_2_mes{
+    width: 100%;
+    height: 150px;
+}
+.detail_2_mes_1{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.detail_2_mes_1 .detail_2_mes_1_mess{
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+}
+.detail_2_mes_2 img{
+    position: relative;
+    top: 50px;
+}
+.detail_2_mes_2 span{
+    position: relative;
+    top: 60px;
+    font-size: 17px;
+}
+.detail_2_mes_3{
+    float: right;
+    position: relative;
+    top: -10%;
+    right: 40px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.detail_2_mes_3 a:hover{
+    text-decoration: none;
+}
+
+.detail_3{
+    width: 100%;
+    min-height: 170px;
+    border-top: solid 1px #E7E7E7;
+    border-bottom: solid 1px #E7E7E7;
+    margin: 10px 0;
+    overflow: auto;
+}
+.detail_3 .detail_3_head{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    background-color: #F2FFE2;
+    text-indent:1em;
+}
+.detail_3_detail{
+    width: 100%;
+    min-height: 50px;
+    font-size: 15px;
+    text-indent:2em;
+}
+.detail_3_table{
+    width: 100%;
+    font-size: 15px;
+}
+.detail_3_table table{
+    text-indent:4em;
+}
+
+.detail_4{
+    width: 100%;
+    min-height: 250px;
+    border-top: solid 1px #E7E7E7;
+    border-bottom: solid 1px #E7E7E7;
+    margin: 10px 0;
+    overflow: auto;
+}
+.detail_4_head{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    background-color: #DADAFB;
+    text-indent:1em;
+}
+.detail_4_detail{
+    width: 100%;
+    min-height: 150px;
+    border-bottom: solid 1px #E7E7E7;
+    overflow: auto;
+}
+.detail_4_user{
+    float: left;
+    width: 25%;
+    height: 200px;
+    border-right: solid 1px #E7E7E7;
+}
+.detail_4_detail_mes{
+    float: right;
+    width: 74.8%;
+    min-height: 160px;
+    border-left: solid 1px #E7E7E7;
+}
+.detail_4_user span{
+    font-size: 17px;
+    position: relative;
+    left: 10px;
+    color: #0000ff;
+}
+.detail_4_user li{
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+}
+.detail_4_detail_mes1{
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+    border-bottom: solid 1px #E7E7E7;
+}
+.detail_4_detail_mes1 a{
+    float: right;
+    margin: 0 10px;
+}
+.detail_4_detail_mes2{
+    font-size: 15px;
+    text-indent: 2em;
+    min-height: 100px;
+    margin: 15px 5px;
+    overflow: auto;
+}
+.detail_4_detail_mes3{
+    font-size: 15px;
+    min-height: 25px;
+    border-top: solid 1px #E7E7E7;
+    overflow: auto;
+}
+.detail_4_detail_mes3 span{
+    display: block;
+    float: left;
+    width: 90%;
+}
+.detail_4_detail_mes3 a{
+    float: right;
+    margin: 0 10px;
+    color: #6F6ADA;
+}
+.detail_4_detail_mes textarea{
+    width: 98%;
+    margin-top: 10px;
+    height: 70px;
+}
+.detail_4_detail_mes #detail_mes4_submit{
+    margin-bottom: 10px;
+}
+.detail_4_detail_form form{
+    text-align: center;
+    width: 100%;
+}
+#detail_4_detail_task form{
+    width: 100%;
+    text-align: center;
+}
+#detail_4_detail_task textarea{
+    width: 98%;
+    margin-top: 10px;
+    height: 70px;
+}
+
+/*
+赏金任务结算
+*/
+.end_body{
+    width: 85%;
+    min-height: 500px;
+    overflow:auto;
+    border-right: solid 1px #D1D1D1;
+}
+.end_head{
+    width: 100% - 60px;
+    min-height: 100px;
+    background-color: #FFFFEF;
+    border-bottom: solid 1px #D8DA98;
+    padding: 30px;
+}
+.end_head li{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.end_detail{
+    width: 100%;
+    min-height: 500px;
+    border-top: solid 1px #E7E7E7;
+    border-bottom: solid 1px #E7E7E7;
+    margin: 10px 0;
+}
+.end_detail li{
+    font-size: 19px;
+    margin: 20px;
+    color: #0000ff;
+}
+.end_detail form{
+    width: 100%;
+}
+.end_detail table{
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+}
+.end_detail form input[type='text']{
+    width: 50px;
+}

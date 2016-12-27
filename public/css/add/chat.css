@@ -1,0 +1,307 @@
+.chatContainer{
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #98bbe6;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 5px;
+    overflow:auto;
+
+    position: relative;
+    left: -90px;
+}
+
+/**
+*标题
+*/
+.chatTitle{
+    height: 45px;
+    border-bottom: 1px solid #98bbe6;
+    background-color: #6B747A;
+    color: #f4f5ff;
+}
+.titleLeft{
+    float:left;
+    width: 50%;
+    height: 45px;
+    text-align: left;
+    line-height:45px;
+}
+.titleRight{
+    width: 50%;
+    height: 45px;
+    text-align: right;
+    line-height:45px;
+}
+
+/**
+*时间
+*/
+.timeCenter{
+    float:left;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height:45px;
+}
+.timeFlg{
+    width: 100%;
+    height: 45px;
+}
+
+/**
+*聊天
+*	overflow: scroll;
+*/
+#chatContent{
+    overflow:auto;
+}
+
+.chatContent{
+    width: 100%;
+    min-height: 45px;
+    text-align:right;
+    margin:15px 0px;
+    overflow:auto;
+}
+.cloudText{
+    float:left;
+}
+.avatar{
+    float:left;
+    height: 45px;
+    width: 45px;
+    display:block;
+    margin:0 10px;
+}
+.contentPlace{
+    float:right;
+}
+
+.chatContent-k{
+    width: 100%;
+    min-height: 45px;
+    text-align:left;
+    margin:15px 0px;
+    overflow:auto;
+}
+.cloudText-k{
+    float:left;
+}
+
+#chatContent{
+    border-bottom: 1px solid #98bbe6;
+}
+
+.cloudContent  pre{
+    margin: 14px 10px;
+}
+.cloudContent  p{
+    margin: 10px 10px;
+}
+.cloudText .cloudContent{
+    float:left;
+    border-radius: 5px;
+    min-width: 50px;
+    max-width: 400px;
+    margin: 0 0 0 0;
+    position: static;
+
+    border-top: 1px solid #7AA23F;
+    border-left: 1px solid #7AA23F;
+    border-bottom: 1px solid #7AA23F;
+    box-shadow: 0px 1px 0px #D5D5D5;
+    border: 1px solid #9f9f9f\9;
+    background-color: #9DBD58;
+    font: inherit;
+    vertical-align: baseline;
+
+    background: -webkit-gradient
+    (linear, left top, left bottom, from(#cdeb96), to(#a4c363), color-stop(0.1, #b4d174), color-stop(0.3, #b2cf73),
+    color-stop(0.5, #afcc74), color-stop(0.7, #abca6c), color-stop(0.9, #a9c572), color-stop(1, #a4c363));
+
+}
+.arrowRight{
+    position: relative;
+    top: 10px;
+    height: 14px;
+    width: 7px;
+    margin: 0 10px 0 0;
+}
+
+.cloudContent-k  pre{
+    margin: 14px 10px;
+}
+.cloudContent-k  p{
+    margin: 10px 10px;
+}
+.cloudText-k .cloudContent{
+    border-radius: 5px;
+    min-width: 50px;
+    max-width: 400px;
+    margin: 0 0 0 14px;
+    position: static;
+
+    border-top: 1px solid #898989;
+    border-left: 1px solid #898989;
+    border-right: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    box-shadow: 0px 1px 0px #D5D5D5;
+    border: 1px solid #9f9f9f\9;
+    background-color: #f4f5ff;
+    font: inherit;
+    vertical-align: baseline;
+
+    background: -webkit-gradient
+    (linear, left top, left bottom, from(#cdeb96), to(#a4c363), color-stop(0.1, #b4d174), color-stop(0.3, #b2cf73),
+    color-stop(0.5, #afcc74), color-stop(0.7, #abca6c), color-stop(0.9, #a9c572), color-stop(1, #a4c363));
+
+}
+.arrowLeft{
+    float:left;
+    position: relative;
+    top: 10px;
+    height: 14px;
+    width: 10px;
+    margin: 0 0 0 7px;
+}
+/*
+.cloudArrow{
+	top: 10px;
+	height: 20px;
+	width: 15px; 
+	border: 1px solid #98bbe6;
+	background: url(./bubble_green_guid1dbc1c.png) no-repeat;
+}
+*/
+
+/**
+*发送内容
+*/
+
+.sendLeft{
+    float:left;
+    width: 30%;
+    min-height: 30px;
+    border: 1px solid #000000;
+}
+
+.sendContent{
+    width: 100%;
+    min-height: 25px;
+    margin: 5px 0;
+    overflow:auto;
+}
+.chatSend{
+    float:right;
+    min-height: 30px;
+    width: 69%;
+}
+.chatInput{
+    float:left;
+    width: 78%;
+    height: 25px;
+    font-size: 20px;
+}
+.chatSend  .send{
+    float:right;
+    width: 17%;
+    height: 30px;
+
+    color: #f4f5ff;
+    border-radius: 5px;
+
+    text-align:center;
+    line-height:30px;
+
+    border: 1px solid #7AA23F;
+    box-shadow: 0px 1px 0px #D5D5D5;
+    border: 1px solid #9f9f9f\9;
+    background-color: #489a21;
+    vertical-align: baseline;
+}
+/*
+*上传文件，qq表情
+*/
+.sendLeft #file {
+    opacity:0;/*设置此控件透明度为零，即完全透明*/
+    filter:alpha(opacity=0);/*设置此控件透明度为零，即完全透明针对IE*/
+    font-size:100px;
+    position:absolute;/*绝对定位，相对于 .input */
+    top:0;
+    right:0;
+}
+.sendLeft .input {
+    float: right;
+    width:80px;
+    height:35px;
+    line-height:35px;
+    background:#08f;
+    text-align:center;
+    display:inline-block;/*具有行内元素的视觉，块级元素的属性 宽高*/
+    overflow:hidden;/*去掉的话，输入框也可以点击*/
+    position:relative;/*相对定位，为 #file 的绝对定位准备*/
+    text-decoration: none;
+}
+
+/*
+*文字版
+*/
+#chatContent .li_chat{
+    list-style-type:none;
+    margin: 8px 10px;
+    font-size: 17px;
+}
+.chatContainer .chat_messages{
+    width: 100%;
+    min-height: 45px;
+    overflow:auto;
+}
+.li_chat .me{
+    color : red;
+}
+.li_chat .sys{
+    color : gray;
+}
+.chat_messages p{
+    margin: 8px 5px;
+    color : blue;
+    line-height:22px;
+    font-size: 17px;
+}
+.timeleft{
+    height: 45px;
+    color : green;
+    line-height:45px;
+    margin: 8px 10px;
+    font-size: 17px;
+}
+
+/*
+*禁止用户交谈页面
+*/
+.chatContainer .chat_not_01{
+    height: 200px;
+}
+.chatContainer .chat_not_02{
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.chatContainer .chat_not_03{
+    font-size: 16px;
+    color: #646464;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.chatContainer .chat_not_03 a{
+    color: #0000ff;
+}
+.chatContainer .chat_not_02 a{
+    color: #0000ff;
+}
+
+
